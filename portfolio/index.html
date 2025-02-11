@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debayan Portfolio</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #00ff00;
+            font-family: "Courier New", monospace;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3rem;
+            text-shadow: 0px 0px 5px #00ff00;
+        }
+        .typing {
+            font-size: 1.5rem;
+            border-right: 3px solid #00ff00;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 0;
+            animation: typing 3s steps(40, end) forwards, blink 0.7s infinite;
+        }
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        @keyframes blink {
+            50% { border-color: transparent; }
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgba(0, 255, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #00ff00;
+        }
+        .glitch:hover {
+            animation: glitch 0.3s infinite;
+        }
+        @keyframes glitch {
+            0% { transform: translate(2px, -2px); }
+            25% { transform: translate(-2px, 2px); }
+            50% { transform: translate(2px, 2px); }
+            75% { transform: translate(-2px, -2px); }
+            100% { transform: translate(0, 0); }
+        }
+        a {
+            color: #00ff00;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="glitch">Debayan's Portfolio</h1>
+    <p class="typing">Welcome to World of 0's and 1</p>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am not a coder but I love coding. And guess what the server you are watching is built on C so RESPECT</p>
+
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://github.com/felixoder" target="__blank">Defacement Tool in C</a>Defacement Tool in C</li>
+            <li><a href="https://github.com/felixoder" target="__blank">HTTPD server in C</a>A Webserver in C </li> 
+            <li><a href="/app/webpage">Get my DOG</a>See my Pet</li>
+            <li><a href="https://debayan-portfolio.onrender.com">Web-D Projects</a>See my Web-D projects</li>
+
+        </ul>
+
+        <h2>Contact</h2>
+        <p>📧 Email: debayanghosh408@gmail.com</p>
+        <p>🐱 GitHub: <a href="https://github.com/felixoder">github.com/felixoder</a></p>
+    </div>
+
+    <p class="footer">© 2025 Low-Level Portfolio. Stay anonymous. 🕶️</p>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("🔓 Access Granted. Welcome to the world of binary.");
+        });
+    </script>
+</body>
+</html>
+
